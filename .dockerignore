@@ -1,2 +1,6 @@
 *.lock
+*.md
+
 node_modules
+Dockerfile
+Dockerfile.dev
