@@ -1,10 +1,10 @@
 FROM node:15.11.0
 
-RUN mkdir myapp
+WORKDIR /app
 
-WORKDIR myapp/
+COPY . .
 
-RUN yarn install
+RUN yarn
 
 CMD yarn start
 
