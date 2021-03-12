@@ -6,7 +6,7 @@ services:
       context: ./fe
       dockerfile: Dockerfile
     volumes:
-      - ./fe:/myapp
+      - ./fe:/app
     ports:
       - "8000:3000"
 
